@@ -6,30 +6,27 @@ import {
   VALIDATOR_REQUIRE,
   VALIDATOR_MINLENGTH
 } from '../../shared/util/validators';
-import './NewPlace.css';
-import {useForm} from '../../shared/hooks/form-hook'
-
-
+import { useForm } from '../../shared/hooks/form-hook';
+import './PlaceForm.css';
 
 const NewPlace = () => {
-
- const [formState,inputHandler] = useForm(
-   {title: {
-    value: '',
-    isValid: false
-  },
-  description: {
-    value: '',
-    isValid: false
-  },
-  address: {
-    value: '',
-    isValid: false
-  }
-}, false)
-  
-
-  
+  const [formState, inputHandler] = useForm(
+    {
+      title: {
+        value: '',
+        isValid: false
+      },
+      description: {
+        value: '',
+        isValid: false
+      },
+      address: {
+        value: '',
+        isValid: false
+      }
+    },
+    false
+  );
 
   const placeSubmitHandler = event => {
     event.preventDefault();

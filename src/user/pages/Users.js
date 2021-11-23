@@ -8,7 +8,7 @@ const Users = () => {
       id: 'u1',
       name: 'Rita Costa',
       image:
-        'https://randompicturegenerator.com/img/people-generator/g5d8c66cb0f69f011ab5315c6e3b29c5250a2c59f03c9fb0136a638b1bb9b2d20172975768ce3425bde4d664b712ace74_640.jpg',
+        'https://randompicturegenerator.com/img/people-generator/g46638da7d9fae46cb50dc26d959a149ef956bff7e1189235e2bee80fbf56290364961e0f0d07154835a0c90054d9462d_640.jpg',
       places: 3
     }
   ];
